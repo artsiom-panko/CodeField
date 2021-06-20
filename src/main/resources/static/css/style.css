@@ -11,7 +11,8 @@
 
 .container .dog_img {
     display: block;
-    margin: 0px auto;
+    margin: 0 auto;
+    min-width: 100px;
     width: 15%;
     border-radius: 40%;
 }
