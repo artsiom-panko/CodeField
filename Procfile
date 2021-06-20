@@ -1,1 +1,1 @@
-web: java -jar target\codefield.war
+web: java -jar target/codefield.war
