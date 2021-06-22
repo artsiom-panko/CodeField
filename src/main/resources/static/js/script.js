@@ -16,12 +16,15 @@ window.addEventListener('DOMContentLoaded', () => {
         setNextImage();
     })
 
+    currentImage.addEventListener('click', () => {
+        setNextImage();
+    })
+
     function setNextImage() {
         var nextImage = imgesSrc[Math.floor(Math.random() * imgesSrc.length)];
 
         while (nextImage === currentImage.getAttribute("src")) {
             nextImage = imgesSrc[Math.floor(Math.random() * imgesSrc.length)];
-            console.log('nextImage:', nextImage);
         }
 
         currentImage.src = nextImage;

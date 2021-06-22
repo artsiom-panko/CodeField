@@ -7,13 +7,16 @@
 
 .container {
     margin: 150px auto;
+    height: 300px;
 }
 
 .container .dog_img {
     display: block;
     margin: 0px auto;
-    width: 15%;
+    /* width: 15%; */
+    height: calc(50% - 33.5px);
     border-radius: 40%;
+    cursor: pointer;
 }
 
 .container .img__text {
